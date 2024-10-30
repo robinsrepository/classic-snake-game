@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Retro Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- defer betekent dat de script pas wordt
+    gerunned na de browser alles in de html heeft
+    gerunned, dit heeft twee voordelen:
+    het voorkomt een heleboel errors
+    het zorgt ervoor dat je de script netjes 
+    binnen de <head> kan zetten en toch runned-->
+</head>
+<body>
+    <div>
+        <!-- typ div. met daarachter de value van
+        class (dus div.classname) en druk op tab
+        Probeer het ook eens met div#idname-->
+        <div class="scores">
+            <h1 id="score">000</h1>
+            <h1 id="high-score">000</h1>
+        </div>
+        <div class="game-border-1">
+            <div class="game-border-2">
+                <div class="game-border-3">
+                    <div id="game-board"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 id="instruction-text">Press spacebar to start the game</h1>
+    <img id="logo" src="snake-game-ai-gen.png" alt="snake-logo">
+</body>
+</html>
